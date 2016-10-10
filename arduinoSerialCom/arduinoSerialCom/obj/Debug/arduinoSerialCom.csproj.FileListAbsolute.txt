@@ -1,0 +1,10 @@
+c:\users\arif\documents\visual studio 2015\Projects\arduinoSerialCom\arduinoSerialCom\bin\Debug\arduinoSerialCom.exe.config
+c:\users\arif\documents\visual studio 2015\Projects\arduinoSerialCom\arduinoSerialCom\bin\Debug\arduinoSerialCom.exe
+c:\users\arif\documents\visual studio 2015\Projects\arduinoSerialCom\arduinoSerialCom\bin\Debug\arduinoSerialCom.pdb
+c:\users\arif\documents\visual studio 2015\Projects\arduinoSerialCom\arduinoSerialCom\obj\Debug\arduinoSerialCom.csprojResolveAssemblyReference.cache
+c:\users\arif\documents\visual studio 2015\Projects\arduinoSerialCom\arduinoSerialCom\obj\Debug\arduinoSerialCom.Properties.Resources.resources
+c:\users\arif\documents\visual studio 2015\Projects\arduinoSerialCom\arduinoSerialCom\obj\Debug\arduinoSerialCom.csproj.GenerateResource.Cache
+c:\users\arif\documents\visual studio 2015\Projects\arduinoSerialCom\arduinoSerialCom\obj\Debug\arduinoSerialCom.exe
+c:\users\arif\documents\visual studio 2015\Projects\arduinoSerialCom\arduinoSerialCom\obj\Debug\arduinoSerialCom.pdb
+C:\Users\Arif\documents\visual studio 2015\Projects\arduinoSerialCom\arduinoSerialCom\obj\Debug\arduinoSerialCom.MainForm.resources
+C:\Users\Arif\documents\visual studio 2015\Projects\arduinoSerialCom\arduinoSerialCom\obj\Debug\arduinoSerialCom.configirationFrm.resources
