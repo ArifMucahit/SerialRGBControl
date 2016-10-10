@@ -1,4 +1,6 @@
 # SerialRGBControl
+https://vimeo.com/186295692
+
 Seri RGB led kontrolü.
 Önce karşımıza gelen ilk formdan pin numarasını ve arduinonuzun bağlı olduğu pin numarasını yazın. Ardından ikinci formda önce led i seçip, sonra scrollbarı kaydırın.
 Eğer c# kaynak kodu ile ilgilenmiyorsanız arduinoSerialCom/arduinoSerialCom/bin/Debug/arduinoSerialCom.exe yi indirip çalıştırın.
