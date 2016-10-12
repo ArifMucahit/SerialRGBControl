@@ -1,39 +1,29 @@
 void setup() {
- pinMode(9,OUTPUT);
- pinMode(10,OUTPUT);
- pinMode(11,OUTPUT);
- pinMode(6,OUTPUT);
- pinMode(5,OUTPUT);
- pinMode(3,OUTPUT);
 Serial.begin(9600);
 }
-byte a;
+short led,brightness;
+
 void loop() {
-  if(Serial.available()) 
+ if(Serial.available())
+    {     
+       int data=Serial.parseInt(); // take the data came from c# app
+       led = data / 1000; // dive to 1000 to get pin number
+       brightness = data %1000; // mode to 1000 to get shineness
+       if(data > 30000) // the unique data for close off.
+       {
+        for(int i=0; i <= 12; i++)
+           analogWrite(i,LOW);
+       } 
+       Serial.println(data); 
+       if (Serial.read() == '\n') // if the data is not null
+       {
+        shineIt(led,parlaklik); // shine it up ! 
+       } 
+     }
+     
+}
+  void shineIt(short led,short bright)
   {
-    a= Serial.read();
-    switch (a) {
-      case '1':
-        digitalWrite(9, HIGH);
-        break;
-      case '2':
-        digitalWrite(10, HIGH);
-        break;
-      case '3':
-        digitalWrite(11, HIGH);
-        break;
-      case '4':
-        digitalWrite(5, HIGH);
-        break;
-      case '5':
-        digitalWrite(4, HIGH);
-        break;
-       case '6':
-       digitalWrite(3,HIGH);
-    }
-       Serial.println(a);     
-       delay(1500);   
-}
+    analogWrite(led,bright); // give the voltage to the pin.
+  }
 
-
-}
